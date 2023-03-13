@@ -1,0 +1,944 @@
+PyTest.py:      if line.startswith("##////"): continue
+W111.py:##//////////////////// PROBLEM STATEMENT ///////////////////////
+W111.py:## Read 3 integers a, b and c, and print the results when you //
+W111.py:## add all three and also when you multiply all three together//
+W111.py:##//////////////////////////////////////////////////////////////
+W112.py:##/////////// PROBLEM STATEMENT ///////////
+W112.py:## Read 3 integers a, b and c, and print //
+W112.py:## the average of these 3 integers       //
+W112.py:##/////////////////////////////////////////
+W113.py:##//////////////////// PROBLEM STATEMENT ///////////////////
+W113.py:## Calculate how much money is earned by working a shift. //
+W113.py:## Read hours which contains the duration of the shift,   //
+W113.py:## rate which is the base amount of money earned per hour // 
+W113.py:## and bonus which is the HOURLY bonus earned on weekends // 
+W113.py:## or public holidays.                                    //
+W113.py:##                                                        //
+W113.py:##  hours rate bonus    result                            //
+W113.py:##    5     9    0   ->   45                              //
+W113.py:##    7    12    2   ->   98                              //
+W113.py:##//////////////////////////////////////////////////////////
+W114.py:##/////////////// PROBLEM STATEMENT /////////////////
+W114.py:## Convert a height input as centimetres to metres //
+W114.py:## and centimetres                                 //
+W114.py:##                                                 //
+W114.py:##  centimetres     metres centimetres             //
+W114.py:##      110      ->    1       10                  //
+W114.py:##     1256      ->   12       56                  //
+W114.py:##///////////////////////////////////////////////////
+W115.py:##////////////////////// PROBLEM STATEMENT ////////////////////////////
+W115.py:## Print out the cost of a phone call, given the connection cost,    //
+W115.py:## the cost per minute and the length of the call, in minutes. The   //
+W115.py:## cost is the connection cost plus the cost per minute times the    //
+W115.py:## length of the call.                                               //
+W115.py:##                                                                   //
+W115.py:##   Connection Cost   Cost/Minute   Call Length      Call Cost      //
+W115.py:##         10              2             20       ->     50          //       
+W115.py:##/////////////////////////////////////////////////////////////////////
+W116.py:##/////////////////////////// PROBLEM STATEMENT /////////////////////////
+W116.py:## Write a program which accepts a time interval in hours, minutes and //
+W116.py:## seconds and prints the equivalent time in just seconds. One hour is //
+W116.py:## 3600 seconds and one minute is 60 seconds.                          //
+W116.py:##                                                                     //
+W116.py:##   hours  minutes  seconds     Total seconds                         //
+W116.py:##     1       10       20    ->    3680                              //       
+W116.py:##///////////////////////////////////////////////////////////////////////
+W121.py:##/////////////////////////// PROBLEM STATEMENT /////////////////////////////
+W121.py:## Write a program which accepts a time interval in seconds and prints the //
+W121.py:## equivalent time in hours minutes seconds. One hour is 3600 seconds and  //
+W121.py:## one minute is 60 seconds.                                               //
+W121.py:##                                                                         //
+W121.py:##   Total seconds     hours  minutes  seconds                             //
+W121.py:##       3680       ->   1      10        20                               //       
+W121.py:##///////////////////////////////////////////////////////////////////////////
+W122.py:##/////////// PROBLEM STATEMENT ////////////////
+W122.py:## Given the time of day, in 24 hour format,  //
+W122.py:## print out the hour in 12 hr time.          //
+W122.py:##                                            //
+W122.py:##   eg 1330 = 1 o'clock, 2213 = 10 o'clock   //
+W122.py:##      1230 = 12 o'clock                     //
+W122.py:##                                            //
+W122.py:##   (Hint: Integer division will cut off     //
+W122.py:##    the value after the decimal completely. //
+W122.py:##     eg 18 // 10 = 1 and 18 / 10 = 1.8)     //
+W122.py:##//////////////////////////////////////////////
+W123.py:##//////////////////// PROBLEM STATEMENT ////////////////////////
+W123.py:## Given a 24 hour time of day as hours minutes seconds, add   //
+W123.py:## a time interval which is specified as hours minutes seconds //
+W123.py:##                                                             //
+W123.py:##   hrs mins secs hrs mins secs    hrs mins secs              // 
+W123.py:##   13   24   30   2   40   40  -> 16    5   10               //
+W123.py:##///////////////////////////////////////////////////////////////
+W124.py:##/////////////////// PROBLEM STATEMENT /////////////////////////
+W124.py:## Given a 12 hour time of day as hours minutes seconds pm,    //
+W124.py:## add a time interval which is specified as hours minutes     //
+W124.py:## seconds. The input pm is 0 for morning and 1 afternoon.     //
+W124.py:##                                                             //
+W124.py:##   hrs mins secs am/pm  hrs mins secs    hrs mins secs am/pm //
+W124.py:##    1   24   30    1     2   40   40  ->  4   5    10    1   //
+W124.py:##///////////////////////////////////////////////////////////////
+W125.py:##//////////////////////////// PROBLEM STATEMENT /////////////////////////////
+W125.py:## Write a Python program that, given a cost of an item (less than or equal //
+W125.py:## to one dollar), gives the number of 50 cent, 20 cent, 10 cent, 5 cent    //
+W125.py:## and 1 cent coins the buyer would receive if they handed over one dollar. //
+W125.py:## You must minimise the number of coins in the change.                     //
+W125.py:##////////////////////////////////////////////////////////////////////////////
+W126.py:##///////////// PROBLEM STATEMENT //////////////
+W126.py:## Write a program that computes the value of //
+W126.py:## n+nn+nnn+nnnn with the single digit n      //
+W126.py:## input by the user.                         //
+W126.py:##//////////////////////////////////////////////
+W131.py:##///////////// PROBLEM STATEMENT /////////////
+W131.py:## Write Python code which, when it reads    // 
+W131.py:## two input boolean values, produces the    //
+W131.py:## following results:                        //
+W131.py:##                                           //
+W131.py:##   True True   -> False                    //
+W131.py:##   True False  -> False                    //
+W131.py:##   False True  -> False                    //
+W131.py:##   False False -> True                     //
+W131.py:##/////////////////////////////////////////////
+W132.py:##///////////// PROBLEM STATEMENT /////////////
+W132.py:## Write Python code which, when it reads    // 
+W132.py:## two input boolean values, produces the    //
+W132.py:## following results:                        //
+W132.py:##                                           //
+W132.py:##   True True   -> False                    //
+W132.py:##   True False  -> False                    //
+W132.py:##   False True  -> True                     //
+W132.py:##   False False -> False                    //
+W132.py:##/////////////////////////////////////////////
+W133.py:##///////////// PROBLEM STATEMENT /////////////
+W133.py:## Write Python code which, when it reads    // 
+W133.py:## two input boolean values, produces the    //
+W133.py:## following results:                        //
+W133.py:##                                           //
+W133.py:##   True True   -> True                     //
+W133.py:##   True False  -> False                    //
+W133.py:##   False True  -> False                    //
+W133.py:##   False False -> True                     //
+W133.py:##/////////////////////////////////////////////
+W134.py:##///////////////// PROBLEM STATEMENT ////////////////////
+W134.py:## Given an integer, print True if it is greater than   //
+W134.py:## zero and print False if it is not greater than zero. //
+W134.py:##   12 -> True                                         //
+W134.py:##   0  -> False                                        //
+W134.py:##   -8 -> False                                        //
+W134.py:##////////////////////////////////////////////////////////
+W135.py:##/////////////// PROBLEM STATEMENT ////////////////
+W135.py:## Given two temperatures, print True if one is   //
+W135.py:## less than 0 and the other is greater than 100. //
+W135.py:##   120, -1 -> True                              //
+W135.py:##   -1, 120 -> True                              //
+W135.py:##   2, 120 -> False                              //
+W135.py:##//////////////////////////////////////////////////
+W136.py:##////////////////////////////// PROBLEM STATEMENT /////////////////////////////
+W136.py:## Write Python code that reads a boolean and an integer from the keyboard.   //
+W136.py:## If the boolean is True and the integer is in the range 1. . 100 OR if      //
+W136.py:## the boolean is False and the integer is not in the range 1..100 and the    //
+W136.py:## integer is not in the range -20..-8 print True. Otherwise print False.     //
+W136.py:## You must not use the Python if or if-else statement.                       //
+W136.py:##                                                                            //
+W136.py:## All ranges are inclusive                                                   //
+W136.py:##                                                                            //
+W136.py:## Example inputs/outputs are:                                                //
+W136.py:##    True 50   -> True                                                       //
+W136.py:##    True -5   -> False                                                      //
+W136.py:##    False 50  -> False                                                      //
+W136.py:##    False 200 -> True                                                       //
+W136.py:##    False -5  -> True                                                       //
+W136.py:##//////////////////////////////////////////////////////////////////////////////
+W141.py:##////////////// PROBLEM STATEMENT ////////////////
+W141.py:## We'll say that a number is "teen" if it is in //
+W141.py:## the range 13..19 inclusive. Given 3 integer   //
+W141.py:## values, print True if 1 or more of them are   //
+W141.py:## teen.                                         //
+W141.py:##   13, 20, 10 -> True                          //
+W141.py:##   20, 19, 10 -> True                          //
+W141.py:##   20, 10, 13 -> True                          //
+W141.py:##/////////////////////////////////////////////////
+W142.py:##////////////////////////////// PROBLEM STATEMENT /////////////////////////////
+W142.py:## Write Python code that reads two integers from the keyboard.               //
+W142.py:## If the first integer is in the range 1. . 100 and the first integer is     //
+W142.py:## less than the second integer OR if the first integer is at least twice     //
+W142.py:## the second integer and the second integer is not in the range -8..16       //
+W142.py:## (with the exception it can be zero) print True. Otherwise print False.     //
+W142.py:## You must not use the Python if or if-else statement.                       //
+W142.py:##                                                                            //
+W142.py:## All ranges are inclusive                                                   //
+W142.py:##                                                                            //
+W142.py:## Example inputs/outputs are:                                                //
+W142.py:##    10 50   -> True                                                         //
+W142.py:##    20 5    -> False                                                        //
+W142.py:##    100 20  -> True                                                         //
+W142.py:##    30 20   -> False                                                        //
+W142.py:##    2 0     -> True                                                         //
+W142.py:##    16 -5   -> False                                                        //
+W142.py:##//////////////////////////////////////////////////////////////////////////////
+W143.py:##////////////////////////////// PROBLEM STATEMENT /////////////////////////////
+W143.py:## Write Python code that reads two integers from the keyboard. Given two     //
+W143.py:## inclusive ranges -8..-4 and 10..16 print True if both integers are in one  //
+W143.py:## of these ranges or both integers are not in these ranges. Otherwise print  //
+W143.py:## False.                                                                     //
+W143.py:## You must not use the Python if or if-else statement.                       //
+W143.py:##                                                                            //
+W143.py:## All ranges are inclusive                                                   //
+W143.py:##                                                                            //
+W143.py:## Example inputs/outputs are:                                                //
+W143.py:##    10 50   -> False                                                        //
+W143.py:##    20 5    -> True                                                         //
+W143.py:##    100 20  -> True                                                         //
+W143.py:##    -5 20   -> False                                                        //
+W143.py:##    -5 12   -> True                                                         //
+W143.py:##    -10 0   -> True                                                         //
+W143.py:##//////////////////////////////////////////////////////////////////////////////
+W144.py:##/////////// PROBLEM STATEMENT ///////////////
+W144.py:## Given 2 int values, print True if either  //
+W144.py:## of them is in the range 10..20 inclusive. //
+W144.py:##   12, 99 -> True                          //
+W144.py:##   21, 12 -> True                          //
+W144.py:##   8, 99 -> False                          //
+W144.py:##/////////////////////////////////////////////
+W145.py:##//////////////////// PROBLEM STATEMENT //////////////////////////
+W145.py:## Given a number n, print True if n is in the range 1..10,      //
+W145.py:## inclusive. Unless "outsideMode" is True, in which case print  //
+W145.py:## True if the number is less or equal to 1, or greater or equal //
+W145.py:## to 10.                                                        //
+W145.py:##   5, False -> True                                            //
+W145.py:##   11, False -> False                                          //
+W145.py:##   11, True -> True                                            //
+W145.py:##/////////////////////////////////////////////////////////////////
+W146.py:##///////////////////// PROBLEM STATEMENT /////////////////////////
+W146.py:## Given three ints, a b c, print True if b is greater than a,   //
+W146.py:## and c is greater than b. However, with the exception that if  //
+W146.py:## "bOk" is True, b does not need to be greater than a.          //
+W146.py:##   1 2 4 False -> True                                         //
+W146.py:##   1 2 1 False -> False                                        //
+W146.py:##   1 1 2 True -> True                                          //
+W146.py:##/////////////////////////////////////////////////////////////////
+W151.py:##////////////////// PROBLEM STATEMENT ///////////////////////
+W151.py:## Write Python code which, given two integers a and b,     //
+W151.py:## prints the largest of the two but, if they are the same, //
+W151.py:## it just prints the value of b                            //
+W151.py:##   12 10 -> 12                                            //
+W151.py:##   2 10 -> 10                                             //
+W151.py:##   2 20 -> 20                                             //
+W151.py:##////////////////////////////////////////////////////////////
+W152.py:##////////////////////// PROBLEM STATEMENT ////////////////////////////
+W152.py:## Write Python code which, given an integer grade, prints "Pass" if //
+W152.py:## the grade is greater than or equal to 50 but less than or equal   //
+W152.py:## to 100. If the grade is greater than or equal to 0 and less than  //
+W152.py:## 50 it prints "Failed" otherwise it prints "Illegal Grade".        //
+W152.py:##   -10 -> Illegal Grade                                            //
+W152.py:##   23 -> Failed                                                    //
+W152.py:##   50 -> Passed                                                    //
+W152.py:##   78 -> Passed                                                    //
+W152.py:##   128 -> Illegal Grade                                            //
+W152.py:##/////////////////////////////////////////////////////////////////////
+W153.py:##//////// PROBLEM STATEMENT ////////////
+W153.py:## Given 3 numbers, print the largest. //
+W153.py:##   3 2 1 -> 3                        //
+W153.py:##   1 2 3 -> 3                        //
+W153.py:##   3 3 3 -> 3                        //
+W153.py:##///////////////////////////////////////
+W154.py:##////////////////////// PROBLEM STATEMENT //////////////////////////
+W154.py:## You have a blue lottery ticket, with ints a, b, and c on it.    //
+W154.py:## This makes three pairs, which we'll call ab, bc and ac.         //
+W154.py:## Consider the sum of the numbers in each pair. If any pair sums  //
+W154.py:## to exactly 10, the result is 10. Otherwise if the ab sum is     //
+W154.py:## exactly 10 more than either bc or ac sums, the result is 5.     //
+W154.py:## Otherwise the result is 0.                                      //
+W154.py:##   9, 1, 0 -> 10                                                 //
+W154.py:##   9, 2, 0 -> 0                                                  //
+W154.py:##   6, 1, 4 -> 10                                                 //
+W154.py:##///////////////////////////////////////////////////////////////////
+W155.py:##////////////////////// PROBLEM STATEMENT //////////////////////
+W155.py:## You are driving a little too fast, and a police officer     //
+W155.py:## stops you. Write code to compute the result, encoded as an  //
+W155.py:## int value: 0=no ticket, 1=small ticket, 2=big ticket. If    //
+W155.py:## speed is 60 or less, the result is 0. If speed is between   //
+W155.py:## 61 and 80 inclusive, the result is 1. If speed is 81 or     //
+W155.py:## more, the result is 2. Unless it is your birthday -- on     //
+W155.py:## that day, your speed can be 5 higher in all cases.          //
+W155.py:##                                                             //
+W155.py:##  Speed  Birthday  Result                                    //
+W155.py:##   60    False   ->   0                                      //
+W155.py:##   65    False   ->   1                                      //
+W155.py:##   65    True   ->    0                                      //
+W155.py:##///////////////////////////////////////////////////////////////
+W156.py:##///////////////////// PROBLEM STATEMENT /////////////////////////
+W156.py:## Normally you answer, except in the morning you only answer if //
+W156.py:## it is your mum calling. In all cases, if you are asleep, you  //
+W156.py:## do not answer.                                                //
+W156.py:##                                                               //
+W156.py:##  Morning  Mum   Asleep    Result                              //
+W156.py:##   False  False  False  -> True                                //
+W156.py:##   False  False  True   -> False                               //
+W156.py:##   True   False  False  -> False                               //
+W156.py:##/////////////////////////////////////////////////////////////////
+W161.py:##/////////////////////////////// PROBLEM STATEMENT ////////////////////////////////
+W161.py:## Write a Python program that calculates the deposit on a home loan as follows:  //
+W161.py:##   Loan < $25,000, deposit = 5% of Loan value                                   //
+W161.py:##   Loan >= $25,000 and < $50,000, deposit = $1,250 + 10% of loan over $25,000   //
+W161.py:##   Loan >= $50,000 and < $100,000, deposit = $5,000 + 25% of loan over $50,000  //
+W161.py:##                                                                                //
+W161.py:##   12000 -> 600                                                                 //
+W161.py:##   30000 -> 1750                                                                //
+W161.py:##   80000 -> 12500                                                               //
+W161.py:##//////////////////////////////////////////////////////////////////////////////////
+W162.py:##//////////// PROBLEM STATEMENT //////////////////
+W162.py:## Given an int n, print the absolute difference //
+W162.py:## between n and 21, except print double the     //
+W162.py:## absolute difference if n is over 21.          //
+W162.py:##   19 -> 2                                     //
+W162.py:##   10 -> 11                                    //
+W162.py:##   21 -> 0                                     //
+W162.py:##/////////////////////////////////////////////////
+W163.py:##///////////////////////// PROBLEM STATEMENT //////////////////////////
+W163.py:## Given three ints, a b c, one of them is small, one is medium and   //
+W163.py:## one is large. Print True if the three values are evenly spaced,    //
+W163.py:## so the difference between small and medium is the same as the      //
+W163.py:## difference between medium and large.                               //
+W163.py:##   2 4 6 -> True                                                    //
+W163.py:##   4 6 2 -> True                                                    //
+W163.py:##   4 6 3 -> False                                                   //
+W163.py:##//////////////////////////////////////////////////////////////////////
+W164.py:##/////////////////////// PROBLEM STATEMENT ////////////////////////////
+W164.py:## Given a day of the week encoded as 0=Sun, 1=Mon, 2=Tue,. ..6=Sat,  //
+W164.py:## and a boolean indicating if we are on vacation, print a string of  //
+W164.py:## the form "7:00" indicating when the alarm clock should ring.       //
+W164.py:## Weekdays, the alarm should be "7:00" and on the weekend it should  //
+W164.py:## be "10:00". Unless we are on vacation -- then on weekdays it       //
+W164.py:## should be "10:00" and weekends it should be "off".                 //
+W164.py:##   1  False -> 7:00                                                 //
+W164.py:##   0  False -> 10:00                                                //
+W164.py:##   0  True  -> off                                                  //
+W164.py:##   5  True  -> 10:00                                                //
+W164.py:##//////////////////////////////////////////////////////////////////////
+W165.py:##///////////// PROBLEM STATEMENT /////////////////////
+W165.py:## Read 3 integers and print them in ascending order //
+W165.py:##   1 3 2 -> 1 2 3                                  //
+W165.py:##   3 1 2 -> 1 2 3                                  //
+W165.py:##   8 5 2 -> 2 5 8                                  //
+W165.py:##/////////////////////////////////////////////////////
+W166.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W166.py:## Given three ints, a b c, print True if one of b or c is "close"           //
+W166.py:## (differing from a by at most 1), while the  other is "far", differing     //
+W166.py:## from both other values by 2 or more.                                      //
+W166.py:##                                                                           //
+W166.py:##   1 2 10 -> True                                                          //
+W166.py:##   1 2 3 -> False                                                          //
+W166.py:##   4 1 3 -> True                                                           //
+W166.py:##/////////////////////////////////////////////////////////////////////////////
+W171.py:##///////////// PROBLEM STATEMENT ///////////////////////
+W171.py:## Print the numbers from 1 to 10 using a while loop.  //
+W171.py:##///////////////////////////////////////////////////////
+W172.py:##//////////////// PROBLEM STATEMENT /////////////////
+W172.py:## Print the numbers from 10 to 20 using a for loop //
+W172.py:##////////////////////////////////////////////////////
+W173.py:##//////////// PROBLEM STATEMENT ///////////////
+W173.py:## Write a program which takes a number n and //
+W173.py:## adds up the numbers in the range 0..n      //
+W173.py:##    3 -> 6                                  //
+W173.py:##   10 -> 55                                 //
+W173.py:##   20 -> 210                                //
+W173.py:##//////////////////////////////////////////////
+W174.py:##//////////////////////////// PROBLEM STATEMENT ///////////////////////////
+W174.py:## Given a number n, write while and for loops that add up the numbers in //
+W174.py:## the series 1,2,3,4,..., n-2, n-1, n and display the resultant sum. The //
+W174.py:## number n will be input by the user of the algorithm.                   //
+W174.py:##   10 -> 55 55                                                          //
+W174.py:##//////////////////////////////////////////////////////////////////////////
+W175.py:##///////////// PROBLEM STATEMENT ///////////////
+W175.py:## Write a program which will find all numbers //
+W175.py:## which are divisible by 7 but are not a      //
+W175.py:## multiple of 5, between 2000 and 2100        //
+W175.py:##///////////////////////////////////////////////
+W176.py:##///////////// PROBLEM STATEMENT //////////////
+W176.py:## Write a program that calculates and prints //
+W176.py:## a value according to the given formula:    //
+W176.py:##   Q = Square root of [(2 * C * D)/H]       // 
+W176.py:## Following are the fixed values of C and H: //
+W176.py:##   C is 50. H is 30.                        //
+W176.py:##   D is the value read by your program      //
+W176.py:##/////////////////////////////////////////////
+W181.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W181.py:## Given a string, print a string length 2 made of its first 2 chars. If the //
+W181.py:## string length is less than 2, use  '@' for the missing chars.             //
+W181.py:##   ("hello") -> "he"                                                       //
+W181.py:##   ("hi") -> "hi"                                                          //
+W181.py:##   ("h") -> "h@"                                                           //
+W181.py:##/////////////////////////////////////////////////////////////////////////////
+W182.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W182.py:## Given a string, print a new string made of 3 copies of the first 2 chars  //
+W182.py:## of the original string. The string may  be any length. If there are fewer //
+W182.py:## than 2 chars, use whatever is there.                                      //
+W182.py:##   "Hello" -> "HeHeHe"                                                     //
+W182.py:##   "ab" -> "ababab"                                                        //
+W182.py:##   "H" -> "HHH"                                                            //
+W182.py:##/////////////////////////////////////////////////////////////////////////////
+W183.py:##//////////////////////////// PROBLEM STATEMENT ////////////////////////////////
+W183.py:## Given 2 strings, a and b, print a new string made of the first char of a    //
+W183.py:## and the last char of b, so "yo" and  "Python" yields "yn". If either string //
+W183.py:## is length 0, use '@' for its missing char.                                  //
+W183.py:##   "last", "chars" -> "ls"                                                   //
+W183.py:##   "yo", "Python" -> "yn"                                                    //
+W183.py:##   "hi", "" -> "h@"                                                          //
+W183.py:##///////////////////////////////////////////////////////////////////////////////
+W184.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W184.py:## Given a string, print the string made of its first two chars, so the      //
+W184.py:## String "Hello" yields "He". If the string is shorter than length 2, print //
+W184.py:## whatever there is, so "X" yields "X", and the empty string "" yields the  //
+W184.py:## empty string "".                                                          //
+W184.py:##   "Hello" -> "He"                                                         //
+W184.py:##   "abcdefg" -> "ab"                                                       //
+W184.py:##   "ab" -> "ab"                                                            //
+W184.py:##/////////////////////////////////////////////////////////////////////////////
+W185.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W185.py:## Given 2 strings, a and b, print a string of the form short+long+short,    //
+W185.py:## with the shorter string on the outside and the longer string on the       //
+W185.py:## inside. The strings will not be the same length, but they may be empty    //
+W185.py:## (length 0).                                                               //
+W185.py:##   "Hello", "hi" -> "hiHellohi"                                            //
+W185.py:##   "hi", "Hello" -> "hiHellohi"                                            //
+W185.py:##   "aaa", "b" -> "baaab"                                                   //
+W185.py:##/////////////////////////////////////////////////////////////////////////////
+W186.py:##//////////////// PROBLEM STATEMENT //////////////////
+W186.py:## Given a string, print a "rotated left 2" version  //
+W186.py:## where the first 2 chars are moved to the end. The //
+W186.py:## string length will be at least 2.                 //
+W186.py:##   "Hello" -> "lloHe"                              //
+W186.py:##   "Python" -> "thonPy"                            //
+W186.py:##   "Hi" -> "Hi"                                    //
+W186.py:##/////////////////////////////////////////////////////
+W191.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W191.py:## Given a string and an int n, print a string made of the first n           //
+W191.py:## characters of the string, followed by the  first n-1 characters of the    //
+W191.py:## string, and so on. You may assume that n is between 0 and the length of   //
+W191.py:## the string, inclusive (i.e. n >= 0 and n <= str.length()).                //
+W191.py:##   "Chocolate", 4 -> "ChocChoChC"                                          //
+W191.py:##   "Chocolate", 3 -> "ChoChC"                                              //
+W191.py:##   "Ice Cream", 2 -> "IcI"                                                 //
+W191.py:##/////////////////////////////////////////////////////////////////////////////
+W192.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////
+W192.py:## Given a non-empty string and an int N, print the string made starting //
+W192.py:## with char 0, and then every Nth char of the string. So if N is 3, use //
+W192.py:## char 0, 3, 6,. .. and so on. N is 1 or more.                          //
+W192.py:##   "Miracle", 2 -> "Mrce"                                              //
+W192.py:##   "abcdefg", 2 -> "aceg"                                              //
+W192.py:##   "abcdefg", 3 -> "adg"                                               //
+W192.py:##/////////////////////////////////////////////////////////////////////////
+W193.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W193.py:## We'll say that a lowercase 'g' in a string is "happy" if there is another //
+W193.py:## 'g' immediately to its left or right.  Print True if all the g's in the   //
+W193.py:## given string are happy.                                                   //
+W193.py:##   "xxggxx" -> True                                                        //
+W193.py:##   "xxgxx" -> False                                                        //
+W193.py:##   "xxggyygxx" -> False                                                    //
+W193.py:##/////////////////////////////////////////////////////////////////////////////
+W194.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W194.py:## Given a string and an int N, print a string made of N repetitions of the  //
+W194.py:## last N characters of the string. You may assume that N is between 0 and   //
+W194.py:## the length of the string, inclusive.                                      //
+W194.py:##   "Hello", 3 -> "llollollo"                                               //
+W194.py:##   "Hello", 2 -> "lolo"                                                    //
+W194.py:##   "Hello", 1 -> "o"                                                       //
+W194.py:##/////////////////////////////////////////////////////////////////////////////
+W195.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W195.py:## Given three inputs - two strings (word and separator) and one integer     //
+W195.py:## (count), print a string made of count occurences of the word, separated   //
+W195.py:## by the separator string.                                                  //
+W195.py:##   "Word", "X", 3   -> "WordXWordXWord"                                    //
+W195.py:##   "This", "And", 2 -> "ThisAndThis"                                       //
+W195.py:##   "This", "And", 1 -> "This"                                              //
+W195.py:##/////////////////////////////////////////////////////////////////////////////
+W196.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W196.py:## Given a string, print True if the first 2 chars in the string also appear //
+W196.py:## at the end of the string, such as with "edited".                          //
+W196.py:##   "edited" -> True                                                        //
+W196.py:##   "edit" -> False                                                         //
+W196.py:##   "ed" -> True                                                            //
+W196.py:##/////////////////////////////////////////////////////////////////////////////
+W1A1.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1A1.py:## Given two strings, print True if either of the strings appears at the     //
+W1A1.py:## very end of the other string, ignoring upper/lower case differences       //
+W1A1.py:## (in other words, the computation should not be "case sensitive").         //
+W1A1.py:##   "Hiabc", "abc" -> True                                                  //
+W1A1.py:##   "AbC", "HiaBc" -> True                                                  //
+W1A1.py:##   "abc", "abXabc" -> True                                                 //
+W1A1.py:##   "abc", "abXaXc" -> False                                                //
+W1A1.py:##/////////////////////////////////////////////////////////////////////////////
+W1A2.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1A2.py:## Given a string, print True if "bad" appears starting at index 0 or 1 in   //
+W1A2.py:## the string, such as with "badxxx" or  "xbadxx" but not "xxbadxx". The     //
+W1A2.py:## string may be any length, including 0.                                    //
+W1A2.py:##   "badxx" -> True                                                         //
+W1A2.py:##   "xbadxx" -> True                                                        //
+W1A2.py:##   "xxbadxx" -> False                                                      //
+W1A2.py:##/////////////////////////////////////////////////////////////////////////////
+W1A3.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1A3.py:## Print True if the string "cat" and "dog" appear the same number of times  //
+W1A3.py:## in the given string.                                                      //
+W1A3.py:##   "catdog" -> True                                                        //
+W1A3.py:##   "catcat" -> False                                                       //
+W1A3.py:##   "1cat1cadodog" -> True                                                  //
+W1A3.py:##/////////////////////////////////////////////////////////////////////////////
+W1A4.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1A4.py:## Given two strings, append them together (known as "concatenation") and    //
+W1A4.py:## print the result. However, if the  concatenation creates a double-char,   //
+W1A4.py:## then omit one of the chars, so "abc" and "cat" yields "abcat".            //
+W1A4.py:##   "abc", "cat" -> "abcat"                                                 //
+W1A4.py:##   "dog", "cat" -> "dogcat"                                                //
+W1A4.py:##   "abc", "" -> "abc"                                                      //
+W1A4.py:##/////////////////////////////////////////////////////////////////////////////
+W1A5.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1A5.py:## Given two strings, append them together (known as "concatenation") and    //
+W1A5.py:## print the result. However, if the strings are different lengths, omit     //
+W1A5.py:## chars from the longer string so it is the same length as the shorter      //
+W1A5.py:## string. So "Hello" and "Hi" yield "loHi". The strings may be any length.  //
+W1A5.py:##                                                                           //
+W1A5.py:##   "Hello", "Hi" -> "loHi"                                                 //
+W1A5.py:##   "Hello", "java" -> "ellojava"                                           //
+W1A5.py:##   "java", "Hello" -> "javaello"                                           //
+W1A5.py:##/////////////////////////////////////////////////////////////////////////////
+W1A6.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1A6.py:## Given a string, print a version without the first 2 chars. Except keep    //
+W1A6.py:## the first char if it is 'a' and keep  the second char if it is 'b'. The   //
+W1A6.py:## string may be any length.                                                 //
+W1A6.py:##   "Hello" -> "llo"                                                        //
+W1A6.py:##   "java" -> "va"                                                          //
+W1A6.py:##   "away" -> "aay"                                                         //
+W1A6.py:##/////////////////////////////////////////////////////////////////////////////
+W1C2.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1C2.py:## Given a list of ints, print True if 6 appears as either the first or      //
+W1C2.py:## last element in the list. The list will be length 1 or more.              //
+W1C2.py:##    1, 2, 6  -> True                                                       //
+W1C2.py:##    6, 1, 2, 3  -> True                                                    //
+W1C2.py:##    3, 2, 1 -> False                                                       //
+W1C2.py:##/////////////////////////////////////////////////////////////////////////////
+W1C3.py:##///////////////////// PROBLEM STATEMENT /////////////////////
+W1C3.py:## Given an int list, print True if it contains a 2 or a 3.  //
+W1C3.py:##    2, 5  -> True                                          //
+W1C3.py:##    4, 3  -> True                                          //
+W1C3.py:##    4, 5  -> False                                         //
+W1C3.py:##/////////////////////////////////////////////////////////////
+W1C4.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1C4.py:## Given 2 lists of ints, a and b, print True if they have the same first    //
+W1C4.py:## element or they have the same last element. Both lists will be length 1   //
+W1C4.py:## or more.                                                                  //
+W1C4.py:##    1, 2, 3    7, 3  -> True                                               //
+W1C4.py:##    1, 2, 3    7, 3, 2  -> False                                           //
+W1C4.py:##    1, 2, 3    1, 3  -> True                                               //
+W1C4.py:##/////////////////////////////////////////////////////////////////////////////
+W1C5.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1C5.py:## Start with 2 int lists, a and b. Consider the sum of the values in each   //
+W1C5.py:## list.  Print the list which has the largest sum. In event of a tie,       //
+W1C5.py:## print a.                                                                  //
+W1C5.py:##    1, 2    3, 4  ->  3, 4                                                 //
+W1C5.py:##    3, 4    1, 2  ->  3, 4                                                 //
+W1C5.py:##    1, 1    1, 2  ->  1, 2                                                 //
+W1C5.py:##/////////////////////////////////////////////////////////////////////////////
+W1C6.py:##//////////////////////////// PROBLEM STATEMENT ///////////////////////////////
+W1C6.py:## Print a list that contains the exact same numbers as the given list,       //
+W1C6.py:## but rearranged so that all the even numbers come before all the odd        //
+W1C6.py:## numbers. Other than that, the numbers can be in any order. You must modify //
+W1C6.py:## and print the given list (no additional data structures).                  //
+W1C6.py:##   1, 0, 1, 0, 0, 1, 1 -> 0, 0, 0, 1, 1, 1, 1                               //
+W1C6.py:##   3, 3, 2 -> 2, 3, 3                                                       //
+W1C6.py:##   2, 2, 2 -> 2, 2, 2                                                       //
+W1C6.py:##//////////////////////////////////////////////////////////////////////////////
+W1D1.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1D1.py:## Given 2 int lists, print a new list length 4 containing all their         //
+W1D1.py:## elements.                                                                 //
+W1D1.py:##    1, 2    3, 4  ->  1, 2, 3, 4                                           //
+W1D1.py:##    4, 4    2, 2  ->  4, 4, 2, 2                                           //
+W1D1.py:##    9, 2    3, 4  ->  9, 2, 3, 4                                           //
+W1D1.py:##/////////////////////////////////////////////////////////////////////////////
+W1D2.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1D2.py:## Given an int list, if there is a 2 in the list immediately followed by    //
+W1D2.py:## a 3, set the 3 element to 0. Print the changed list.                      //
+W1D2.py:##   1, 2, 3 -> 1, 2, 0                                                      //
+W1D2.py:##   2, 3, 5 -> 2, 0, 5                                                      //
+W1D2.py:##   1, 2, 1 -> 1, 2, 1                                                      //
+W1D2.py:##/////////////////////////////////////////////////////////////////////////////
+W1D3.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1D3.py:## Given an int list, print a new list with double the length where its      //
+W1D3.py:## last element is the same as the original list, and all the other          //
+W1D3.py:## elements are 0. The original list will be length 1 or more.               // 
+W1D3.py:##    4, 5, 6  -> 0, 0, 0, 0, 0, 6                                           //
+W1D3.py:##    1, 2  -> 0, 0, 0, 2                                                    //
+W1D3.py:##    3  -> 0, 3                                                             //
+W1D3.py:##/////////////////////////////////////////////////////////////////////////////
+W1D4.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1D4.py:## Given an int list, print True if the list contains 2 twice, or 3 twice.   //
+W1D4.py:## The list will be length 0, 1, or 2.                                       //
+W1D4.py:##    2, 2  -> True                                                          //
+W1D4.py:##    3, 3  -> True                                                          //
+W1D4.py:##    2, 3  -> False                                                         //
+W1D4.py:##/////////////////////////////////////////////////////////////////////////////
+W1D5.py:##/////////////////////////// PROBLEM STATEMENT ////////////////////////////////
+W1D5.py:## Given a list length 1 or more of ints, print the difference between the    //
+W1D5.py:## largest and smallest values in the list.                                   //
+W1D5.py:##    10, 3, 5, 6  -> 7                                                       //
+W1D5.py:##    7, 2, 10, 9  -> 8                                                       //
+W1D5.py:##    2, 10, 7, 2  -> 8                                                       //
+W1D5.py:##//////////////////////////////////////////////////////////////////////////////
+W1D6.py:##///////////////// PROBLEM STATEMENT /////////////////////
+W1D6.py:## Given a list of ints, print True if there is a        //
+W1D6.py:## 1 in the list with a 2 somewhere later in the list.   //
+W1D6.py:##    1, 3, 2  -> True                                   //
+W1D6.py:##    3, 1, 2  -> True                                   //
+W1D6.py:##    3, 1, 4, 5, 2  -> True                             //
+W1D6.py:##/////////////////////////////////////////////////////////
+W1E1.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1E1.py:## Given a list of ints of even length, print a new list length 2            //
+W1E1.py:## containing the middle two elements from the original list. The original   //
+W1E1.py:## list will be length 2 or more.                                            //
+W1E1.py:##    1, 2, 3, 4  ->  2, 3                                                   //
+W1E1.py:##    7, 1, 2, 3, 4, 9  ->  2, 3                                             //
+W1E1.py:##    1, 2  ->  1, 2                                                         //
+W1E1.py:##/////////////////////////////////////////////////////////////////////////////
+W1E2.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1E2.py:## Given a list of ints, print True if the list contains either 3 even or    //
+W1E2.py:## 3 odd values all next to each other.                                      //
+W1E2.py:##    2, 1, 3, 5  -  > True                                                  //
+W1E2.py:##    2, 1, 2, 5  -  > False                                                 //
+W1E2.py:##    2, 4, 2, 5  -  > True                                                  //
+W1E2.py:##/////////////////////////////////////////////////////////////////////////////
+W1E3.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1E3.py:## Given a list of ints, print a list with the elements "rotated left"       //
+W1E3.py:## so 1, 2, 3  yields 2, 3, 1.                                               //
+W1E3.py:##    1, 2, 3  -  > 2, 3, 1                                                  //
+W1E3.py:##    5, 11, 9  -  > 11, 9, 5                                                //
+W1E3.py:##    7, 0, 0  -  > 0, 0, 7                                                  //
+W1E3.py:##/////////////////////////////////////////////////////////////////////////////
+W1E4.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1E4.py:## Given a list of ints, print True if the list is length 1 or more, and     //
+W1E4.py:## the first element and the last element are the same.                      //
+W1E4.py:##    1, 2, 3  -> False                                                      //
+W1E4.py:##    1, 2, 3, 1  -> True                                                    //
+W1E4.py:##    1, 2, 1  -> True                                                       //
+W1E4.py:##/////////////////////////////////////////////////////////////////////////////
+W1E5.py:##/////////// PROBLEM STATEMENT ///////////////
+W1E5.py:## Given a list of ints, print True if the   //
+W1E5.py:## list contains no 1's and no 3's.          //
+W1E5.py:##    0, 2, 4  -  > True                     //
+W1E5.py:##    1, 2, 3  -  > False                    //
+W1E5.py:##    1, 2, 4  -  > False                    //
+W1E5.py:##/////////////////////////////////////////////
+W1E6.py:##//////////////////////////// PROBLEM STATEMENT /////////////////////////////
+W1E6.py:## Print the "centered" average of a list of ints, which we'll say is the   //
+W1E6.py:## mean average of the values, except not counting the largest and smallest //
+W1E6.py:## values in the list.  Use int division to produce the final average. You  //
+W1E6.py:## may assume that the list is length 3 or more.                            //
+W1E6.py:##    1, 2, 3, 4, 100  -> 3                                                 //
+W1E6.py:##    1, 1, 5, 5, 10, 8, 7  -> 5                                            //
+W1E6.py:##    -10, -4, -2, -4, -2, 0  -> -3                                         //
+W1E6.py:##////////////////////////////////////////////////////////////////////////////
+W1F1.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1F1.py:## Print the number of even ints in the given list. Note: the % "mod"        //
+W1F1.py:## operator computes the remainder, e.g. 5 % 2 is 1.                         //
+W1F1.py:##    2, 1, 2, 3, 4  -> 3                                                    //
+W1F1.py:##    2, 2, 0  ->                                                            //
+W1F1.py:##    1, 3, 5  -> 0                                                          //
+W1F1.py:##/////////////////////////////////////////////////////////////////////////////
+W1F2.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1F2.py:## Print a list that contains exactly the same numbers as the given list,    //
+W1F2.py:## but rearranged so that every 3 is immediately followed by a 4. Do not     //
+W1F2.py:## move the 3's, but every other number may move. The list contains the      //
+W1F2.py:## same number of 3's and 4's, every 3 has a number after it that is not a 3 //
+W1F2.py:## or 4, and a 3 appears in the list before any 4.                           //
+W1F2.py:##    1, 3, 1, 4  -> 1, 3, 4, 1                                              //
+W1F2.py:##    1, 3, 1, 4, 4, 3, 1  -> 1, 3, 4, 1, 1, 3, 4                            //
+W1F2.py:##    3, 2, 2, 4  -> 3, 4, 2, 2                                              //
+W1F2.py:##/////////////////////////////////////////////////////////////////////////////
+W1F3.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1F3.py:## Given a list of ints, print True if the list contains a 2 next to a 2     //
+W1F3.py:## or a 4 next to a 4, but not both.                                         //
+W1F3.py:##    1, 2, 2  -> True                                                       //
+W1F3.py:##    4, 4, 1  -> True                                                       //
+W1F3.py:##    4, 4, 1, 2, 2  -> False                                                //
+W1F3.py:##/////////////////////////////////////////////////////////////////////////////
+W1F4.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1F4.py:## Given a list of ints length 3, figure out which is larger between the     //
+W1F4.py:## first and last elements in the list, and set all the other elements to    //
+W1F4.py:## be that value. Print the changed list.                                    //
+W1F4.py:##    1, 2, 3  ->  3, 3, 3                                                   //
+W1F4.py:##    11, 5, 9  ->  11, 11, 11                                               //
+W1F4.py:##    2, 11, 3  ->  3, 3, 3                                                  //
+W1F4.py:##/////////////////////////////////////////////////////////////////////////////
+W1F5.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1F5.py:## Given lists nums1 and nums2 of the same length, for every element in      //
+W1F5.py:## nums1, consider the  corresponding element in nums2 (at the same index).  //
+W1F5.py:## Print the count of the number of times that the  two elements differ by 2 //
+W1F5.py:## or less, but are not equal.                                               //
+W1F5.py:##    1, 2, 3   2, 3, 10  -> 2                                               //
+W1F5.py:##    1, 2, 3   2, 3, 5  -> 3                                                //
+W1F5.py:##    1, 2, 3   2, 3, 3  -> 2                                                //
+W1F5.py:##/////////////////////////////////////////////////////////////////////////////
+W1F6.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1F6.py:## Say that a "clump" in a list is a series of 2 or more adjacent elements   //
+W1F6.py:## of the same value. Print the number of clumps in the given list.          //
+W1F6.py:##    1, 2, 2, 3, 4, 4  -> 2                                                 //
+W1F6.py:##    1, 1, 2, 1, 1  -> 2                                                    //
+W1F6.py:##    1, 1, 1, 1, 1  -> 1                                                    //
+W1F6.py:##/////////////////////////////////////////////////////////////////////////////
+W1G1.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1G1.py:## Say that a "clump" in a list is a series of 2 or more adjacent elements   //
+W1G1.py:## of the same value. Print the number of clumps in the given list.          //
+W1G1.py:##    1, 2, 2, 3, 4, 4  -> 2                                                 //
+W1G1.py:##    1, 1, 2, 1, 1  -> 2                                                    //
+W1G1.py:##    1, 1, 1, 1, 1  -> 1                                                    //
+W1G1.py:##/////////////////////////////////////////////////////////////////////////////
+W1H1.py:##///////////// PROBLEM STATEMENT /////////////////////
+W1H1.py:## Fill in the blanks with the correct functions.    //
+W1H1.py:## This program reads a string with embedded blanks. //
+W1H1.py:##/////////////////////////////////////////////////////
+W1H2.py:##//////////////////////////// PROBLEM STATEMENT ////////////////////////////
+W1H2.py:## Given a string, compute a new string where identical chars that are     //
+W1H2.py:## adjacent in the original string are separated from each other by a "*". //
+W1H2.py:##   ("hello") -> "hel*lo"                                                 //
+W1H2.py:##   ("xxyy") -> "x*xy*y"                                                  //
+W1H2.py:##   ("aaaa") -> "a*a*a*a"                                                 //
+W1H2.py:##///////////////////////////////////////////////////////////////////////////
+W1H3.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1H3.py:## Print a  list that contains the exact same numbers as the given list,     //
+W1H3.py:## but rearranged so that all the even numbers come before all the odd       //
+W1H3.py:## numbers. Other than that, the numbers can be in any order. You may modify //
+W1H3.py:## and print the given list, or make a new list. Use functions to implement  //
+W1H3.py:## your solution.                                                            //
+W1H3.py:##    1, 0, 1, 0, 0, 1, 1  ->  0, 0, 0, 1, 1, 1, 1                           //
+W1H3.py:##    3, 3, 2  ->  2, 3, 3                                                   //
+W1H3.py:##    2, 2, 2  ->  2, 2, 2                                                   //
+W1H3.py:##/////////////////////////////////////////////////////////////////////////////
+W1H4.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1H4.py:## Print a version of the given list  where each zero value in the list  is  //
+W1H4.py:## replaced by the largest odd value to the right of the zero in the list.   //
+W1H4.py:## If there is no odd value to the right of the zero, leave the zero as a    //
+W1H4.py:## zero. Use three functions within your program.                            //
+W1H4.py:##    0, 5, 0, 3  ->  5, 5, 3, 3                                             //
+W1H4.py:##    0, 4, 0, 3  ->  3, 4, 3, 3                                             //
+W1H4.py:##    0, 1, 0  ->  1, 1, 0                                                   //
+W1H4.py:##/////////////////////////////////////////////////////////////////////////////
+W1H5.py:##//////////////////////////// PROBLEM STATEMENT /////////////////////////////////
+W1H5.py:## Given 2 int lists, print a new list length 4 containing all their            //
+W1H5.py:## elements. Implement a getlist function to read the lists, a concat function  //
+W1H5.py:## to concatenate the lists and a print function to print the resulting list    //
+W1H5.py:##    1, 2    3, 4  ->  1, 2, 3, 4                                              //
+W1H5.py:##    4, 4    2, 2  ->  4, 4, 2, 2                                              //
+W1H5.py:##    9, 2    3, 4  ->  9, 2, 3, 4                                              //
+W1H5.py:##////////////////////////////////////////////////////////////////////////////////
+W1H6.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////
+W1H6.py:## Given a list of ints, decide which is larger of the first and         //
+W1H6.py:## last elements in the list, and set all the other elements to be that  //
+W1H6.py:## that value. Print the changed list.  Implement functions for:         //
+W1H6.py:##   - reading the list                                                  //
+W1H6.py:##   - finding the maximum of 2 integers                                 //
+W1H6.py:##   - setting all elements of a  list  to a single value                //
+W1H6.py:##   - printing a  list                                                  //
+W1H6.py:##    1, 2, 3  ->  3, 3, 3                                               //
+W1H6.py:##    11, 5, 9  ->  11, 11, 11                                           //
+W1H6.py:##    2, 11, 3  ->  3, 3, 3                                              //
+W1H6.py:##/////////////////////////////////////////////////////////////////////////
+W1I1.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1I1.py:## Given a list of ints, print True if every element is a 1 or a 4.          //
+W1I1.py:##    1, 4, 1, 4  -> True                                                    //
+W1I1.py:##    1, 4, 2, 4  -> False                                                   //
+W1I1.py:##    1, 1  -> True                                                          //
+W1I1.py:##/////////////////////////////////////////////////////////////////////////////
+W1I2.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1I2.py:## Given an int list, print True if it contains a 2 or a 3. Implement a      //
+W1I2.py:## getlist  function to read the list and a search23 function to search the  //
+W1I2.py:## list                                                                      //
+W1I2.py:##    2, 5  -> True                                                          //
+W1I2.py:##    4, 3  -> True                                                          //
+W1I2.py:##    4, 5  -> False                                                         //
+W1I2.py:##/////////////////////////////////////////////////////////////////////////////
+W1I3.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1I3.py:## Given a list of ints, print a list with the elements "rotated left"       //
+W1I3.py:## so  1, 2, 3  yields  2, 3, 1 . Implement a getlist  function to read the  //
+W1I3.py:## list, a rotateLeft1 function to rotate the list  and a print function to  //
+W1I3.py:## print the list                                                            //
+W1I3.py:##    1, 2, 3  ->  2, 3, 1                                                   //
+W1I3.py:##    5, 11, 9  ->  11, 9, 5                                                 //
+W1I3.py:##    7, 0, 0  ->  0, 0, 7                                                   //
+W1I3.py:##/////////////////////////////////////////////////////////////////////////////
+W1I4.py:##//////////////////////////// PROBLEM STATEMENT ///////////////////////////////
+W1I4.py:## Given a list of integers and start & end indexes into the list, print      //
+W1I4.py:## the number of times where, between the start and end indices (inclusive),  //
+W1I4.py:## an integer in the list is followed by a smaller integer. The start and     //
+W1I4.py:## end index will both be valid indexes into the list with start less than    //
+W1I4.py:## or equal to end.                                                           //
+W1I4.py:##                                                                            //
+W1I4.py:## Use one function to read the list and another function to count the number //
+W1I4.py:## of times where an integer in the list with an index betwen start and end   //
+W1I4.py:## (inclusive) is followed by a smaller integer.                              //
+W1I4.py:##   5, 3, 3, 3, 2,  2, 4  -> 1                                               //
+W1I4.py:##   5, 3, 6, 7, 2,  0, 1  -> 1                                               //
+W1I4.py:##   5, 3, 3, 3, 2,  0, 4  -> 2                                               //
+W1I4.py:##//////////////////////////////////////////////////////////////////////////////
+W1I5.py:##//////////////////////////// PROBLEM STATEMENT ////////////////////////////////
+W1I5.py:## Print True if the string "cat" and "dog" appear the same number of times    //
+W1I5.py:## in the given string. Use one function to perform the count of either "cat"  //
+W1I5.py:## or "dog" in the given string.                                               //
+W1I5.py:##   "catdog" -> True                                                          //
+W1I5.py:##   "catcat" -> False                                                         //
+W1I5.py:##   "1cat1cadodog" -> True                                                    //
+W1I5.py:##///////////////////////////////////////////////////////////////////////////////
+W1I6.py:##//////////////////////////// PROBLEM STATEMENT ///////////////////////////////
+W1I6.py:## Given a list of integers and start & end indexes into the list, print      //
+W1I6.py:## the number of times where, between the start and end indices (inclusive),  //
+W1I6.py:## an integer in the list is followed by the same integer. The start and end  //
+W1I6.py:## index will both be valid indexes into the list with start less than or     //
+W1I6.py:## equal to end.                                                              //
+W1I6.py:##                                                                            //
+W1I6.py:## Use one function to read the list and another function to count the number //
+W1I6.py:## of times where an integer in the list with an index betwen start and end   //
+W1I6.py:## (inclusive) is followed by the same integer.                               //
+W1I6.py:##   5, 3, 3, 3, 2,  2, 4 -> 1                                                //
+W1I6.py:##   5, 3, 6, 7, 2,  0, 1 -> 0                                                //
+W1I6.py:##   5, 3, 3, 3, 2,  0, 4 -> 2                                                //
+W1I6.py:##//////////////////////////////////////////////////////////////////////////////
+W1J1.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1J1.py:## Start with 2 int lists, a and b. Consider the sum of the values in each   //
+W1J1.py:## list.  Print the list which has the largest sum. In event of a tie,       //
+W1J1.py:## print a. Implement a getlist function to read the lists, a sum function to//
+W1J1.py:## add the elements of the lists and a print function to print the resulting //
+W1J1.py:## list                                                                      //
+W1J1.py:##    1, 2    3, 4  ->  3, 4                                                 //
+W1J1.py:##    3, 4    1, 2  ->  3, 4                                                 //
+W1J1.py:##    1, 1    1, 2  ->  1, 2                                                 //
+W1J1.py:##/////////////////////////////////////////////////////////////////////////////
+W1J2.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1J2.py:## Given a non-empty string and an int N, print the string made starting     //
+W1J2.py:## with char 0, and then every Nth char of the string. So if N is 3, use     //
+W1J2.py:## char 0, 3, 6,. .. and so on. N is 1 or more. Implement a function to build//
+W1J2.py:## the result string.                                                        //
+W1J2.py:##   "Miracle", 2 -> "Mrce"                                                  //
+W1J2.py:##   "abcdefg", 2 -> "aceg"                                                  //
+W1J2.py:##   "abcdefg", 3 -> "adg"                                                   //
+W1J2.py:##/////////////////////////////////////////////////////////////////////////////
+W1J3.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1J3.py:## Given a string, consider the prefix string made of the first N chars of   //
+W1J3.py:## the string. Does that prefix string appear somewhere else in the string?  //
+W1J3.py:## Assume that the string is not empty and that N is in the range            //
+W1J3.py:## 1..str.length(). Use a function to find the prefix in the given string.   //
+W1J3.py:##   "abXYabc", 1 -> True                                                    //
+W1J3.py:##   "abXYabc", 2 -> True                                                    //
+W1J3.py:##   "abXYabc", 3 -> False                                                   //
+W1J3.py:##/////////////////////////////////////////////////////////////////////////////
+W1J4.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1J4.py:## Print a list that contains exactly the same numbers as the given list,    //
+W1J4.py:## but rearranged so that every 3 is immediately followed by a 4. Do not     //
+W1J4.py:## move the 3's, but every other number may move. The list contains the      //
+W1J4.py:## same number of 3's and 4's, every 3 has a number after it that is not a 3 //
+W1J4.py:## or 4, and a  3 appears in the list before any 4. Use functions to read the//
+W1J4.py:## list, print the list, swap numbers and search for numbers.                //
+W1J4.py:##    1, 3, 1, 4  ->  1, 3, 4, 1                                             //
+W1J4.py:##    1, 3, 1, 4, 4, 3, 1  ->  1, 3, 4, 1, 1, 3, 4                           //
+W1J4.py:##    3, 2, 2, 4  ->  3, 4, 2, 2                                             //
+W1J4.py:##/////////////////////////////////////////////////////////////////////////////
+W1J5.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1J5.py:## Given a list of ints, print True if the list contains a 2 next to a 2     //
+W1J5.py:## somewhere.                                                                //
+W1J5.py:##    1, 2, 2  -> True                                                       //
+W1J5.py:##    1, 2, 1, 2  -> False                                                   //
+W1J5.py:##    2, 1, 2  -> False                                                      //
+W1J5.py:##/////////////////////////////////////////////////////////////////////////////
+W1J6.py:##//////////////////////////// PROBLEM STATEMENT ///////////////////////////////
+W1J6.py:## Given a list of integers and start & end indexes into the list, print      //
+W1J6.py:## True if, between the start and end indices (inclusive), every integer in   //
+W1J6.py:## the list  is followed by a smaller integer. The start and end index will   //
+W1J6.py:## both be valid indexes into the list  with start less than or equal to end. //
+W1J6.py:##                                                                            //
+W1J6.py:## Use one function to read the list  and another function to check that every//
+W1J6.py:## integer in the list  with an index betwen start and end (inclusive) is     //
+W1J6.py:## followed by a smaller integer.                                             //
+W1J6.py:##    5, 3, 3, 2, 1,  2, 4 -> True                                            //
+W1J6.py:##    5, 3, 6, 7, 2,  0, 1 -> True                                            //
+W1J6.py:##    5, 3, 3, 3, 2,  0, 4 -> False                                           //
+W1J6.py:##//////////////////////////////////////////////////////////////////////////////
+W1K1.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1K1.py:## Given a list of ints, print True if the list contains two 7's next to     //
+W1K1.py:## each other, or there are two 7's  separated by one element, such as with  //
+W1K1.py:##  7, 1, 7 .                                                                //
+W1K1.py:##    1, 7, 7  -> True                                                       //
+W1K1.py:##    1, 7, 1, 7  -> True.                                                   //
+W1K1.py:##    1, 7, 1, 1, 7  -> False                                                //
+W1K1.py:##/////////////////////////////////////////////////////////////////////////////
+W1K2.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1K2.py:## Given a list of ints, print True if it contains no 1's or it contains     //
+W1K2.py:## no 4's. Use 2 functions only.                                             //
+W1K2.py:##    1, 2, 3  -> True                                                       //
+W1K2.py:##    1, 2, 3, 4  -> False                                                   //
+W1K2.py:##    2, 3, 4  -> True                                                       //
+W1K2.py:##/////////////////////////////////////////////////////////////////////////////
+W1K3.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1K3.py:## Given a list of ints, print True if the value 3 appears in the list       //
+W1K3.py:## exactly 3 times, and no 3's are  next to each other. Use three functions  //
+W1K3.py:## for reading the list, counting the 3's and checking for adjacent 3's      //
+W1K3.py:##    3, 1, 3, 1, 3  -> True                                                 //
+W1K3.py:##    3, 1, 3, 3  -> False                                                   //
+W1K3.py:##    3, 4, 3, 3, 4  -> False                                                //
+W1K3.py:##/////////////////////////////////////////////////////////////////////////////
+W1K4.py:##//////////////////////////// PROBLEM STATEMENT ///////////////////////////////
+W1K4.py:## Given a list of integers and start & end indexes into the list, print      //
+W1K4.py:## the number of times where, between the start and end indices (inclusive),  //
+W1K4.py:## an integer in the list  is followed by a larger integer. The start and     //
+W1K4.py:## end index will both be valid indexes into the list  with start less than   //
+W1K4.py:## or equal to end.                                                           //
+W1K4.py:##                                                                            //
+W1K4.py:## Use one function to read the list and another function to count the number //
+W1K4.py:## of times where an integer in the list with an index betwen start and end   //
+W1K4.py:## (inclusive) is followed by a larger integer.                               //
+W1K4.py:##   5, 3, 3, 3, 2,  2, 4 -> 0                                                //
+W1K4.py:##   5, 3, 6, 7, 2,  0, 1 -> 0                                                //
+W1K4.py:##   5, 7, 3, 4, 2,  0, 4 -> 2                                                //
+W1K4.py:##//////////////////////////////////////////////////////////////////////////////
+W1K5.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1K5.py:## Given a string, compute recursively (no loops) a new string where all the //
+W1K5.py:## lowercase 'x' chars have been  changed to 'y' chars.                      //
+W1K5.py:##    "codex"  -> "codey"                                                    //
+W1K5.py:##    "xxhixx"  -> "yyhiyy"                                                  //
+W1K5.py:##    "xhixhix"  -> "yhiyhiy"                                                //
+W1K5.py:##/////////////////////////////////////////////////////////////////////////////
+W1K6.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1K6.py:## We'll say that a "nsequence" in a string is a char appearing n times in   //
+W1K6.py:## a row. Given a string and an integer n, print the number of nsequences in //
+W1K6.py:## the given string. The nsequences may overlap. Use a function to count the //
+W1K6.py:## number of nsequences.                                                     //
+W1K6.py:##   "abcXXXabc" 3 -> 1                                                      //
+W1K6.py:##   "xxxabyyyycd" 3 -> 3                                                    //
+W1K6.py:##   "a" 2 -> 0                                                              //
+W1K6.py:##/////////////////////////////////////////////////////////////////////////////
+W1L1.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1L1.py:## Given a list of ints, print True if the list contains two 7's next to     //
+W1L1.py:## each other, or there are two 7's  separated by one element, such as with  //
+W1L1.py:##  7, 1, 7 .                                                                //
+W1L1.py:##    1, 7, 7  -> True                                                       //
+W1L1.py:##    1, 7, 1, 7  -> True.                                                   //
+W1L1.py:##    1, 7, 1, 1, 7  -> False                                                //
+W1L1.py:##/////////////////////////////////////////////////////////////////////////////
+W1M1.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////////
+W1M1.py:## Given a list of ints, print True if the list contains two 7's next to     //
+W1M1.py:## each other, or there are two 7's  separated by one element, such as with  //
+W1M1.py:##  7, 1, 7 .                                                                //
+W1M1.py:##    1, 7, 7  -> True                                                       //
+W1M1.py:##    1, 7, 1, 7  -> True.                                                   //
+W1M1.py:##    1, 7, 1, 1, 7  -> False                                                //
+W1M1.py:##/////////////////////////////////////////////////////////////////////////////
+W2B1.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////
+W2B1.py:## Write a program that reads the file phillip.txt, counts the number of //
+W2B1.py:## non-empty lines in the file, and prints out the count.                //
+W2B1.py:##/////////////////////////////////////////////////////////////////////////
+W2B2.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////
+W2B2.py:## Write a program that reads the file phillip.txt, counts the number of //
+W2B2.py:## words in the file, and prints out the count.                          //
+W2B2.py:##/////////////////////////////////////////////////////////////////////////
+W2B3.py:##//////////////////////////// PROBLEM STATEMENT //////////////////////////
+W2B3.py:## Write a program to edit text files for extra blanks. The program will //
+W2B3.py:## replace any string of two or more blanks with a single blank.         //
+W2B3.py:##   - Read the input file name                                          //
+W2B3.py:##   - The input file name is input by the user                          //
+W2B3.py:##   - Scan this file and print to the screen removing extra blanks.     //
+W2B3.py:##/////////////////////////////////////////////////////////////////////////

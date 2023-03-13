@@ -1,0 +1,41 @@
+////////////////////////////// PROBLEM STATEMENT ///////////////////////////////////////////////////////////
+// Write a program to edit text files for extra blanks. The program will replace any string of two        //
+// or more blanks with a single blank. Your program should work as follows:                               //
+//   - Ask the user for the input file name                                                               //
+//   - Copy this file to a temporary file removing extra blanks. make sure the temporary file does not    //
+//     overwrite an existing file                                                                         //
+//   - Copy the contents of the temporary file back into the original file                                //
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////// PROBLEM STATEMENT ///////////////////////////////////////////////////////////
+// The text files boynames.txt and girlnames.txt (downloaded automatically) contain lists of the most     //
+// 1000 most popular names in descending order of popularity. Each line of these files contains a name,   //
+// followed by a blank and then the number of times this name was registered in 2003. Write a program     //
+// which reads both these files into memory using arrays. Then, allow the user to input a name and        //
+// print out the order of popularity of the name and the number of times the name was registered in 2003. //
+// If the name is not present then print a message.                                                       //
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ERRATA (These have been corrected in this eBook)
+Page, line
+1, 15, for enterprizes, read enterprises.
+13, penult.     for only fifty, read an hundred.
+Ibid. ult. for Penryn, read Penrhyn.
+75, 7, for Surprize, read Surprise.
+87, 14, after 17, dele th.
+96, 13, for into, read in.
+149, 10, for Kangooroo, read Kanguroo. The orthography of a word
+            derived only from oral sound is in some degree arbitrary; but
+            it ought to be consistant. The plates, by mistake, have Kangooroo.
+
+185, 14, for it were were, read if it were.
+203, 3, f    or Fobn, read Thomas.
+213, 10, for four, read forty.
+
+228, 23, bis, for         Macauley, read Macaulay.
+231, 15, for Patri, read Pabi.
+252, Margin, for May, read June.
+253, Ditto.
+255, Margin, for July,       read June.
+256, Ditto.
+232, 18, for Taha, read Toha.
+242, 9, for who, read whom.
+246, 25, for veer'd, read near'd.
